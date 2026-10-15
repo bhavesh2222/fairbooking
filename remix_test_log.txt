@@ -1,0 +1,388 @@
+Welcome to Remix 2.6.6 
+
+Your files are stored in indexedDB, 2.5 KB / 10 GB used
+
+You can use this terminal to: 
+Check transactions details and start debugging.
+Execute JavaScript scripts:
+ - Input a script directly in the command line interface 
+ - Select a Javascript file in the file explorer and then run `remix.execute()` or `remix.exeCurrent()`  in the command line interface 
+ - Right-click on a JavaScript file in the file explorer and then click `Run` 
+The following libraries are accessible:
+ethers.js 
+Type the library name to see available commands.
+[vm]
+from:
+0x5B3...eddC4
+to:
+Escrow.(constructor)
+value:
+0 wei
+data:
+0x608...40000
+logs:
+0
+hash:
+0xd54...fc137
+[vm]
+from:
+0x5B3...eddC4
+to:
+Ledger.(constructor)
+value:
+0 wei
+data:
+0x608...00002
+logs:
+0
+hash:
+0x7dc...d6790
+[vm]
+from:
+0xAb8...35cb2
+to:
+Escrow.verify(address,bytes32) 0xd91...39138
+value:
+0 wei
+data:
+0x0dd...11111
+logs:
+1
+hash:
+0xda5...76faf
+[vm]
+from:
+0xAb8...35cb2
+to:
+Escrow.verify(address,bytes32) 0xd91...39138
+value:
+0 wei
+data:
+0x0dd...22222
+logs:
+1
+hash:
+0xff2...fb2b0
+[vm]
+from:
+0xAb8...35cb2
+to:
+Escrow.verify(address,bytes32) 0xd91...39138
+value:
+0 wei
+data:
+0x0dd...33333
+logs:
+1
+hash:
+0xad2...4eeec
+[vm]
+from:
+0xAb8...35cb2
+to:
+Escrow.verify(address,bytes32) 0xd91...39138
+value:
+0 wei
+data:
+0x0dd...11111
+logs:
+0
+hash:
+0xf82...a1ff4
+transact to Escrow.verify errored: Error occurred: Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "identity already used".
+If the transaction failed for not having enough gas, try increasing the gas limit gently..
+
+Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "identity already used".
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+[vm]
+from:
+0x4B2...C02db
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+0 wei
+data:
+0xe1f...aaaaa
+logs:
+0
+hash:
+0xbf2...a14c5
+transact to Escrow.register errored: Error occurred: Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "wrong deposit".
+If the transaction failed for not having enough gas, try increasing the gas limit gently..
+
+Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "wrong deposit".
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+[vm]
+from:
+0x4B2...C02db
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+0 wei
+data:
+0xe1f...aaaaa
+logs:
+0
+hash:
+0x145...7a272
+transact to Escrow.register errored: Error occurred: Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "wrong deposit".
+If the transaction failed for not having enough gas, try increasing the gas limit gently..
+
+Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "wrong deposit".
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+[vm]
+from:
+0x4B2...C02db
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+1000000000000000000 wei
+data:
+0xe1f...aaaaa
+logs:
+1
+hash:
+0xee5...729d2
+[vm]
+from:
+0x787...cabaB
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+1000000000000000000 wei
+data:
+0xe1f...bbbbb
+logs:
+1
+hash:
+0xddd...fa519
+[vm]
+from:
+0x617...5E7f2
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+1000000000000000000 wei
+data:
+0xe1f...ccccc
+logs:
+1
+hash:
+0x6be...5b9c5
+[vm]
+from:
+0x4B2...C02db
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+1000000000000000000 wei
+data:
+0xe1f...bbbbb
+logs:
+0
+hash:
+0x345...ae75b
+transact to Escrow.register errored: Error occurred: Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "already registered".
+If the transaction failed for not having enough gas, try increasing the gas limit gently..
+
+Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "already registered".
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+[vm]
+from:
+0x5B3...eddC4
+to:
+Escrow.close() 0xd91...39138
+value:
+0 wei
+data:
+0x43d...726d6
+logs:
+1
+hash:
+0x3d7...e3348
+call
+[call]
+from:
+0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to:
+Escrow.roundId()
+data:
+0x8cd...221c9
+from	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to	Escrow.roundId() 0xd9145CCE52D386f254917e481eB44e9943F39138
+execution cost	2448 gas (Cost only applies when called by a contract)
+input	0x8cd...221c9
+output	0xf34768139a571bb5f5b77de7b5caece31b7922f12ea72232ba91c6e861f2ba02
+decoded input	{}
+decoded output	{
+	"0": "bytes32: 0xf34768139a571bb5f5b77de7b5caece31b7922f12ea72232ba91c6e861f2ba02"
+}
+logs	[]
+raw logs	[]
+[vm]
+from:
+0x17F...8c372
+to:
+Escrow.register(bytes32) 0xd91...39138
+value:
+1000000000000000000 wei
+data:
+0xe1f...aaaaa
+logs:
+0
+hash:
+0x927...8578f
+transact to Escrow.register errored: Error occurred: Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "registration closed".
+If the transaction failed for not having enough gas, try increasing the gas limit gently..
+
+Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "registration closed".
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+[vm]
+from:
+0x5B3...eddC4
+to:
+Ledger.allocate(address,bytes32) 0xd8b...33fa8
+value:
+0 wei
+data:
+0x849...00000
+logs:
+1
+hash:
+0x746...75f7e
+[vm]
+from:
+0x5B3...eddC4
+to:
+Ledger.allocate(address,bytes32) 0xd8b...33fa8
+value:
+0 wei
+data:
+0x849...00000
+logs:
+1
+hash:
+0xa13...fbd9d
+call
+[call]
+from:
+0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to:
+Ledger.filled()
+data:
+0x5c0...133d9
+from	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to	Ledger.filled() 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+execution cost	2492 gas (Cost only applies when called by a contract)
+input	0x5c0...133d9
+output	0x0000000000000000000000000000000000000000000000000000000000000002
+decoded input	{}
+decoded output	{
+	"0": "uint256: 2"
+}
+logs	[]
+raw logs	[]
+[vm]
+from:
+0x5B3...eddC4
+to:
+Ledger.allocate(address,bytes32) 0xd8b...33fa8
+value:
+0 wei
+data:
+0x849...00000
+logs:
+0
+hash:
+0x02e...82a25
+transact to Ledger.allocate errored: Error occurred: Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "all slots filled".
+If the transaction failed for not having enough gas, try increasing the gas limit gently..
+
+Error occurred: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "all slots filled".
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+
+If the transaction failed for not having enough gas, try increasing the gas limit gently.
+[vm]
+from:
+0x5B3...eddC4
+to:
+Escrow.settle(address,bool) 0xd91...39138
+value:
+0 wei
+data:
+0x44f...00001
+logs:
+1
+hash:
+0xc95...41410
+[vm]
+from:
+0x5B3...eddC4
+to:
+Escrow.settle(address,bool) 0xd91...39138
+value:
+0 wei
+data:
+0x44f...00000
+logs:
+1
+hash:
+0x701...bc5a3
