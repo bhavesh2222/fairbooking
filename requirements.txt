@@ -1,2 +1,3 @@
 matplotlib
 cryptography
+web3
